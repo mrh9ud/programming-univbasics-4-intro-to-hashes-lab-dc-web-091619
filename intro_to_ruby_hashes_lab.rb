@@ -4,7 +4,8 @@ def new_hash
 end
 
 def my_hash
-  
+  new_hash = {:boiling => 212, :freezing => 32}
+  p new_hash[:boiling]
 end
 
 def pioneer
